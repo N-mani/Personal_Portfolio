@@ -129,6 +129,7 @@ const Navbar = () => {
             >
               About
             </motion.Link>
+
             <Link
               activeClass="active"
               to="projects"
@@ -141,19 +142,6 @@ const Navbar = () => {
               }}
             >
               Projects
-            </Link>
-            <Link
-              activeClass="active"
-              to="projects"
-              spy={true}
-              smooth={true}
-              duration={500}
-              className="cursor-pointer hover:scale-110 duration-300 w-full text-center   py-2 text-[26px]"
-              onClick={() => {
-                setIsOpen(!isOpen)
-              }}
-            >
-              Skills
             </Link>
             <Link
               activeClass="active"
