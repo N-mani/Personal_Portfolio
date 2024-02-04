@@ -24,7 +24,7 @@ const Navbar = () => {
             transition={{ duration: 1.5, delay: 1 }}
             className=""
           >
-            Mani
+            Portfolio
           </motion.h1>
 
           <motion.ul
